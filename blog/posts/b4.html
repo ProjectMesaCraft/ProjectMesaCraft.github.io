@@ -1,0 +1,165 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/navbar.css">
+    <title>Mesa Craft</title>
+</head>
+
+<!--Navigation Bar-->
+<div class="logo header">
+
+    <span class="header__inner">
+        <!--Link for when clicking on logo-->
+        <a href="/MCHomepage.html" style="text-decoration: none;">
+            <div class="logo">
+                <span class="logo__mark"></span>
+                <span class="logo__text">MesaCraft</span>
+                <span class="logo__cursor" style="background-color:#ffaa0b; animation-duration:3s;"></span>
+            </div>
+        </a>
+        <span class="header__right">
+            <nav class="menu">
+                <ul class="menu__inner">
+                    <li><a href="/links.html">Links</a></li>
+                    <li><a href="/blog/index.html">Changelog</a></li>
+                    <li><a href="https://patreon.com/mesacraft">Patreon</a></li>
+                </ul>
+            </nav>
+        </span>
+</div>
+
+<style>
+    .content {
+        background-color: rgb(216, 216, 216);
+        margin-top: 30px;
+        margin-left: 400px;
+        margin-right: 400px;
+        margin-bottom: 20px;
+        border-style: solid;
+        border-radius: 0px;
+    }
+</style>
+
+<center class="content">
+    <h1>Operation Organization {4/5/2021}</h1>
+    <h1>Main Changes:</h1>
+    <ul>
+        <p><em>Shop prices &amp; items for sale changed</em></p>
+        <p><em>Black Market added</em></p>
+        <p><em>Added Voting system with multiple sites &amp; rewards</em></p>
+        <p><em>Multiple plugins added &amp; explained below</em></p>
+    </ul>
+    <hr />
+    <h3>Black Market</h3>
+    <p>Don't double guess it, or you might end up regretting it. Keep an eye out for new NPC's around the spawn regions,
+        they might give you some clues on this new called &quot;market&quot;.</p>
+    <p>P.S - Treat this as a late Easter Hunt!</p>
+    <hr />
+    <h3>ItemFinder</h3>
+    <p>&quot;So are you tired of actually looking in chests? I know right, what a scam!&quot; This is a quote directly
+        from the spigot page. It seems to be a very fresh plugin, expect some decent updates to come from this creator.
+    </p>
+    <p style="border-style: groove; margin: 20px;"><i>Hello players, welcome to Mesa Craft! This plugin is a very
+            simple, but helpful one. It allows you to search the chests nearby to find the item in your hand! All you
+            have to do is sneak! Enjoy!<i></p>
+    <p>~ Skippysunday, Plugin Developer</p>
+    <p><a href="https://www.spigotmc.org/resources/itemfinder.88777/">Link to plugin</a></p>
+    <hr />
+    <h3>AutoCraft</h3>
+    <p>After building the contraption, all it takes is placing the resources in one chest and watch the process flow. To
+        build, put an itemframe with a craftingtable in it on a dispenser. Place two chests on each side and put the
+        recipe of the item you'd like tocraft in the dispenser. The dispenser should be pointed towards the chest you
+        want it to spit the outcome into.</p>
+    <p><a href="https://www.spigotmc.org/resources/autocraft.75618/">Link to plugin</a></p>
+    <p>Example below:</p>
+    <img style="width: auto; height: 300px;" src="/blog/posts/img/AutoCraft.png">
+    <hr />
+    <h3>FancyBags</h3>
+    <p>This is a replacement to PlaverVaultsX. Consider these more as backs and less of backpacks, where you can craft
+        each type of bag depending on what you're looking for. Each bag type is custom &amp; can carry limited amounts
+        depending on how easy it is to craft. In future updates, there may be backpacks that can only carry a specific
+        item (mainly useful for those that like building massive projects). The list of bags below are easily craftable,
+        more bags with higher capacity will be added soon.</p>
+    <p><a
+            href="https://www.spigotmc.org/resources/%E2%9A%A1-fancybags-%E2%9A%A1-the-best-backpacks-plugin-1-8-1-16-5.79997/">Link
+            to plugin</a></p>
+    <p><strong>Bag Recipes:</strong></p>
+    <p>If you have any baggy Ideas you'd like to see be added, root for it to be added in our discord
+        #suggestions channel.</p>
+    <p><img style="width: 400px; height: auto;" src="/blog/posts/img/brecipe1.png"></p>
+    <p><img style="width: 400px; height: auto;" src="/blog/posts/img/brecipe2.png"></p>
+    <p><img style="width: 400px; height: auto;" src="/blog/posts/img/brecipe3.png"></p>
+    <p><img style="width: 400px; height: auto;" src="/blog/posts/img/brecipe4.png"></p>
+    <aside>
+        ❗ ***The old version of Backpacks are going to be removed by next update. Please remove all of your items from
+        every backpack using the "/bp" command. If you don't, your items will be lost.***
+    </aside>
+    <hr />
+    <h3>ChestSort</h3>
+    <p>ChestSort can automatically sort every chest, barrel, etc. after you have used it. This also works to organize
+        your player-inventory. You can use both commands or built-in hotkeys to use this feature. Also, every hotkey can
+        be enabled/disabled through the GUI.</p>
+    <p><a href="https://www.spigotmc.org/resources/chestsort-api.59773/">Link to plugin</a></p>
+    <p><img style="width: 700px; height: auto;" src="/blog/posts/img/chestsort.gif"></p>
+    </p>
+    <p><strong>Commands:</strong></p>
+    <p><strong>/sort or /chestsort</strong></p>
+    <p>Toggle automatic chest sorting.</p>
+    <p><strong>/sort on|off or /chestsort on|off</strong></p>
+    <p>Enable/disable automatic chest sorting</p>
+    <p><strong>/sort hotkeys or /chestsort hotkeys</strong></p>
+    <p>Open the hotkeys GUI to enable/disable hotkeys</p>
+    <p><strong>/invsort or /isort</strong></p>
+    <p>Sort Inventory</p>
+    <p><strong>/invsort hotbar or /isort hotbar</strong></p>
+    <p>Sort Hotbar</p>
+    <p><strong>/invsort toggle or /isort toggle</strong></p>
+    <p>Toggle automatic inventory sorting</p>
+    <p><strong>/invsort on|off or /isort on|off</strong></p>
+    <p>Enable/disable automatic inventory sorting</p>
+    <br>
+        <p><strong>Hotkeys List:</strong></p>
+        <p><strong>Middle click</strong></p>
+        <p>Middle click (mousewheel) on ANY inventory slot</p>
+        <p><strong>Shift click</strong></p>
+        <p>Shift + left click on any EMPTY inventory slot</p>
+        <p><strong>Double click</strong></p>
+        <p>Double click on any EMPTY inventory slot</p>
+        <p><strong>Shift + right click</strong></p>
+        <p>Shift + right click on any EMPTY inventory slot</p>
+        <p>Additional Hotkeys</p>
+        <p><strong>Left-Click outside inventory</strong></p>
+        <p>Puts all matching stuff (except hotbar) into the chest, barrel etc.</p>
+        <p><strong>Double-Left-Click outside inventory</strong></p>
+        <p>Puts all items (except hotbar) into the chest, barrel etc.</p>
+        <p><strong>Right-Click outside inventory</strong></p>
+        <p>Puts matching items from the chest, barrel etc. into your inventory</p>
+        <p><strong>Double-Right-Click outside inventory</strong></p>
+        <p>Empties the whole chest, barrel etc. into your inventory</p>
+        <br>
+    <h2>Other changes:</h2>
+    <ul>
+        <p><em>Fixed discord invite link not being clickable in-game</em></p>
+        <p><em>Changed server difficulty back to normal</em></p>
+        <p><em>New location for change-logs (obviously)/em></p>
+        <p><em>New additions to spawn</em></p>
+    </ul>
+    <p>Known bugs:</p>
+    <ul>
+        <p><em>Text for plugins like Gsit &amp; daily challenges aren't displaying properly</em></p>
+        <p><em>Items are being duplicated/disappearing automatically &amp; at random times</em></p>
+    </ul>
+    <aside>
+        ❔ Are you interested in a staff position? Consider applying on our forums, we'd love to have you!
+        <a href="https://extremosyt.net/forums/apply">Click here
+            to apply</a>
+    </aside>
+
+
+</center>

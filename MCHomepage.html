@@ -1,0 +1,95 @@
+<!DOCTYPE HTML>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/navbar.css">
+  <title>Mesa Craft</title>
+</head>
+
+<body>
+
+  <!--Navigation Bar-->
+  <div class="logo header">
+
+    <span class="header__inner">
+      <!--Link for when clicking on logo-->
+      <a href="/MCHomepage.html" style="text-decoration: none;">
+        <div class="logo">
+          <span class="logo__mark"></span>
+          <span class="logo__text">MesaCraft</span>
+          <span class="logo__cursor" style="background-color:#ffaa0b; animation-duration:3s;"></span>
+        </div>
+      </a>
+      <span class="header__right">
+        <nav class="menu">
+          <ul class="menu__inner">
+            <li><a href="/links.html">Links</a></li>
+            <li><a href="/blog/index.html">Changelog</a></li>
+            <li><a href="https://patreon.com/mesacraft">Patreon</a></li>
+          </ul>
+        </nav>
+      </span>
+  </div>
+
+  <!-- Slide Show -->
+  <section style="margin-top: 10px;">
+    <center>
+      <img class="mySlides" src="Wolf.png" style="width:50%">
+      <img class="mySlides" src="Saloon.png" style="width:50%">
+      <img class="mySlides" src="Train.png" style="width:50%">
+      <img class="mySlides" src="Graveyard.png" style="width:50%">
+    </center>
+  </section>
+
+  <!-- MesaCraft Description -->
+  <section class="w3-container w3-center w3-content" style="max-width:600px">
+    <h2 class="w3-wide">MESA CRAFT</h2>
+    <img style="width: 100px; height: auto;" src="/img/logo.png">
+    <p class="w3-opacity"><i>A Simple & Refreshing Survival Experience </i></p>
+    <p>MesaCraft was created by the current developers and staff for the enjoyment for others most importantly and the
+      nostalgia of playing Minecraft with friends in the past. We are a small community inviting all visitors to be a
+      part of.</p>
+    <p>We strive to create a chill and relaxing place for everyone, whilst bringing new content as often as possible.
+      The goal is to make the community and server feel like an SMP, while bringing more interesting things to do with
+      every update This adds some enjoyment to survival, without it becoming overwhelming with the amount of changes to
+      the base game.</p>
+    <p>It's nothing big, aimed towards people looking to collab with and/or make new friends. Or, if you aren't that
+      type of person, you can try to solo through and see how far you make it, endless possibilities really. Don't thank
+      us for that though, that's just minecraft.</p>
+    <p>As a very small community, we'd love for more members and possible staff members to enjoy our community.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer style="padding-top: 20px; padding-bottom: 10px; background-color:rgb(36, 36, 36);" class="w3-center">
+    <a href="https://youtube.com/ExtremosYT"> <img src="/img/youtube.png" alt="Youtube Link"
+        style="height: auto; width: 45px;"></a>
+    <a href="#"> <img src="/img/discord.png" alt="Youtube Link" style="height: auto; width: 45px;"></a>
+    <a href="https://patreon.com/ExtremosYT"> <img src="/img/patreon.png" alt="Youtube Link"
+        style="height: auto; width: 45px;"></a>
+    <p style="color: white;" class="w3-medium">
+      Powered by Extremos
+    </p>
+  </footer>
+
+  <script>
+    // Automatic Slideshow - change image every 3 seconds
+    var myIndex = 0;
+    carousel();
+
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("mySlides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";
+      }
+      myIndex++;
+      if (myIndex > x.length) { myIndex = 1 }
+      x[myIndex - 1].style.display = "block";
+      setTimeout(carousel, 3000);
+    }
+  </script>
